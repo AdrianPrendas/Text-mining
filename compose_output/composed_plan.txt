@@ -1,0 +1,56 @@
+1::EIF200::Fundamentos de Informática::3::Admission::dipl::I::I
+2::MAY230::Matemática para Informática I::4::Admission::dipl::I::I
+3::EstudiosGeneralesI::Estudios Generales I::3::Admission::dipl::I::I
+4::EstudiosGeneralesII::Estudios Generales II::3::Admission::dipl::I::I
+5::LIX410::Inglés Integrado I::4::Admission::dipl::I::I
+6::EIF201::Programación I::4::EIF200::MAY230::dipl::I::II
+7::MAY231::Matemática para Informática II::4::MAY230::dipl::I::II
+8::EstudiosGeneralesIII::Estudios Generales III::3::Admission::dipl::I::II
+9::EstudiosGeneralesIV::Estudios Generales IV::3::Admission::dipl::I::II
+10::LIX411::Inglés Integrado II::4::LIX410::dipl::I::II
+11::EIF204::Programación II::4::EIF201::dipl::II::I
+12::MAY232::Matemática para Informática III::4::MAY231::dipl::II::I
+13::EIF202::Soporte Técnico::3::EIF200::dipl::II::I
+14::EIF203::Estructuras Discretas para Informática::3::EIF200::MAY230::dipl::II::I
+15::LIX412::Inglés Integrado III::4::LIX411::dipl::II::I
+16::EIF206::Programación III::4::EIF204::MAY231::dipl::II::II
+17::EIF207::Estructuras de Datos::4::EIF203::EIF204::dipl::II::II
+18::EIF205::Arquitectura de Computadoras::3::EIF201::EIF202::dipl::II::II
+19::EIF404::La Organización y su Entorno::3::EIF201::dipl::II::II
+20::MAY223::Probabilidad y Estadística para Informática::3::MAY231::EIF203::dipl::II::II
+21::EIF209::Programación IV::4::EIF206::dipl::III::I
+22::EIF210::Ingeniería de Sistemas  I::4::EIF206::dipl::III::I
+23::EIF211::Diseño e Implementación de Bases de Datos::4::EIF206::EIF207::dipl::III::I
+24::EIF212::Sistemas Operativos::3::EIF204::EIF205::dipl::III::I
+25::EIF208::Comunicaciones y Redes de Computadores::3::EIF205::dipl::III::I
+26::EIF400::Paradigmas de Programación::4::EIF206::bsc::III::II
+27::EIF401::Ingeniería de Sistemas II::4::EIF210::bsc::III::II
+28::EIF402::Administración de Bases de Datos::4::EIF212::EIF211::bsc::III::II
+29::EIF405::Investigación de Operaciones y sus Aplicaciones::3::MAY232::MAY223::bsc::III::II
+30::EIF407::Liderazgo y Organización ::3::EIF404::bsc::III::II
+31::EIF406::Ingeniería de Sistemas III::4::EIF401::bsc::IV::I
+32::OptativaI::Optativa ::3::Admission::bsc::IV::I
+33::OptativaII::Optativa ::3::Admission::bsc::IV::I
+34::EIF403::Métodos de Investigación Científica en Informática::3::MAY223::bsc::IV::I
+35::EIF408::Proyectos y su Aplicación en la Organización (PPS)::5::EIF209::EIF401::EIF402::bsc::IV::II
+36::EIF409::Aplicaciones Informáticas Globales::4::EIF209::EIF401::EIF402::bsc::IV::II
+37::OptativaIII::Optativa ::3::Admission::bsc::IV::II
+38::OptativaIV::Optativa ::3::Admission::bsc::IV::II
+39::EIF410::Informática y Sociedad::2::EIF401::bsc::IV::II
+40::EIF100O::Dispositivos para comunicaciones de Datos::3::EIF208::bsc::_::_
+41::EIF420O::Inteligencia Artificial::3::EIF207::bsc::_::_
+42::EIF421O::Análisis de Algoritmos::3::EIF207::MAY231::bsc::_::_
+43::EIF422O::Diseño de Interfaces de usuario::3::EIF206::bsc::_::_
+44::EIF424O::Desarrollo de Aplicaciones Educativas::3::EIF204::EIF206::bsc::_::_
+45::EIF425O::Diseño de Ambientes Multimediales::3::Admission::bsc::_::_
+46::EIF426O::Diseño de Ambientes de Aprendizaje::3::Admission::bsc::_::_
+47::EIF427O::Robótica::3::EIF204::bsc::_::_
+48::EIF428O::Fundamentos de Programación Web::3::EIF206::EIF211::bsc::_::_
+49::EIF431O::Administración de servidores basados en software libre::3::EIF212::EIF402::bsc::_::_
+50::EIF433O::Contexto, Desarrollo y Aplicación de Software Libre y de código abierto::3::EIF212::EIF211::bsc::_::_
+51::EIF434O::Minería de Datos I::3::EIF402::MAY223::bsc::_::_
+52::EIF435O::Minería de Datos II::3::EIF434O::bsc::_::_
+53::EIG416O::Gestión de Tecnología Educativa::3::EIF425O::bsc::_::_
+54::EIF430O::Las TIC’s en el Ámbito Jurídico de Costa Rica::3::Admission::bsc::_::_
+55::EIG417O::Liderazgo y organizaciones::3::Admission::bsc::_::_
+56::EIG418O::La organización y su entorno::3::Admission::bsc::_::_

@@ -1,0 +1,47 @@
+digraph asde91 {
+	/*ranksep=.75; size = "7.5,7.5";*/
+	ranksep=.25; size = "5.5,5.5";
+	{
+		node [shape=plaintext, fontsize=10];
+		/* the time-line graph */
+		"start" -> "I-I" -> "I-II" -> "II-I" -> "II-II"-> "end";
+		/* ancestor programs */
+		"start"; "Ingreso"
+	}
+	{ rank = same;
+		"end"
+	};
+	node [shape=box, width=.4, height=.4, fixedsize=true, fontsize=6];
+	{ rank = same; "Ingreso"; "start"; }
+	{ rank = same; "I-I"; "EIF200"; "MAY230"; }
+	{ rank = same; "I-II"; "EIF201"; "MAY231"}
+	{ rank = same; "II-I"; "EIF204"; "MAY232"; "EIF202"; "EIF203"; }
+	{ rank = same; "II-II"; "EIF206"; "EIF207"; "EIF205"; "MAY223"; "EIF404"; }
+	
+	/* edges */
+	"Ingreso" -> "EIF200";
+	"Ingreso" -> "MAY230";
+	
+	"EIF200" -> "EIF201";
+	"MAY230" -> "MAY231";
+	"MAY230" -> "EIF201";
+	
+	"EIF201" -> "EIF204";
+	"MAY231" -> "MAY232";
+	"EIF200" -> "EIF202";
+	"EIF200" -> "EIF203";
+	"MAY230" -> "EIF203";
+	
+	"EIF204" -> "EIF206";
+	"MAY231" -> "EIF206";
+	"EIF203" -> "EIF207";
+	"EIF204" -> "EIF207";
+	"EIF201" -> "EIF404";
+	"EIF201" -> "EIF205";
+	"EIF202" -> "EIF205";
+	"MAY231" -> "EIF223";
+	"EIF203" -> "MAY223";
+	
+	
+	
+}

@@ -1,0 +1,311 @@
+INGENIERIA EN SISTEMAS DE INFORMACIÓN CON GRADO DE BACHILLERATO Y SALIDA LATERAL DE DIPLOMADO EN PROGRAMACIÓN DE APLICACIONES INFORMÁTICAS
+Estudiantes que ingresan en el 2012
+I Nivel
+I Ciclo 
+CODIGO
+NOMBRE
+CR.
+REQUISITOS
+EIF200
+Fundamentos de Informática
+3
+Ingreso a Carrera
+MAY230
+Matemática para Informática I
+4
+Ingreso a Carrera
+
+Estudios Generales I
+3
+Ver cursos generales
+
+Estudios Generales II
+3
+Ver cursos generales
+LIX-410
+Inglés Integrado I
+4
+Ingreso a Carrera
+                                                                                     17 créditos
+II Ciclo 
+CODIGO
+NOMBRE
+CR.
+REQUISITOS
+EIF201
+Programación I
+4
+EIF200
+MAY230
+MAY231
+Matemática para Informática II
+4
+MAY230
+
+Estudios Generales III
+3
+Ver cursos generales
+
+Estudios Generales IV
+3
+Ver cursos generales
+LIX-411
+Inglés Integrado II
+4
+LIX-410
+                                                                                     18 créditos
+
+II Nivel
+I Ciclo
+CODIGO
+NOMBRE
+CR.
+REQUISITOS
+EIF204
+Programación II
+4
+EIF201
+MAY232
+Matemática para Informática III
+4
+MAY231
+EIF202
+Soporte Técnico
+3
+EIF200
+EIF203
+Estructuras Discretas para Informática
+3
+EIF200
+MAY230
+LIX-412
+Inglés Integrado III
+4
+LIX-411
+                                                                                     18 créditos
+II Ciclo
+CODIGO
+NOMBRE
+CR.
+REQUISITOS
+EIF206
+Programación III
+4
+EIF204
+MAY231
+EIF207
+Estructuras de Datos
+4
+EIF203
+EIF204
+EIF205
+Arquitectura de Computadoras
+3
+EIF201
+EIF202
+EIF404
+La Organización y su Entorno
+3
+EIF201
+MAY223
+Probabilidad y Estadística para Informática
+3
+MAY231
+EIF203
+                                                                                     17 créditos
+III Nivel
+I Ciclo
+CODIGO
+NOMBRE
+CR.
+REQUISITOS
+EIF209
+Programación IV
+4
+EIF206
+EIF210
+Ingeniería de Sistemas  I
+4
+EIF206
+EIF211
+Diseño e Implementación de Bases de Datos
+4
+EIF206
+EIF207
+EIF212
+Sistemas Operativos
+3
+EIF204
+EIF205
+EIF208
+Comunicaciones y Redes de Computadores
+3
+EIF205
+                                                                                     18 créditos
+
+				DIPLOMADO	           88  Crd.
+II Ciclo
+
+NOMBRE
+CR.
+REQUISITOS
+EIF400
+Paradigmas de Programación
+4
+EIF206
+EIF401
+Ingeniería de Sistemas II
+4
+EIF210
+EIF402
+Administración de Bases de Datos
+4
+EIF212
+EIF211
+EIF405
+Investigación de Operaciones y sus Aplicaciones
+3
+MAY232
+MAY223
+
+EIF407
+Liderazgo y Organización 
+3
+EIF404 
+                                                                                     18 créditos
+
+IV Nivel
+I Ciclo									
+
+NOMBRE
+CR.
+REQUISITOS
+EIF XXX
+Diseño y programación de plataformas Móviles
+4
+EIF209
+EIF428 O
+EIF406
+Ingeniería de Sistemas III
+4
+EIF401
+
+Optativa 
+3
+Ver cursos optativos
+
+Optativa 
+3
+Ver cursos optativos
+EIF403
+Métodos de Investigación Científica en Informática
+3
+MAY223
+
+                                                                                     17 créditos
+
+II Ciclo
+
+
+NOMBRE
+CR.
+REQUISITOS
+EIF408
+Proyectos y su Aplicación en la Organización (PPS)
+5
+EIF209
+EIF401
+EIF402
+EIF409
+Aplicaciones Informáticas Globales
+4
+EIF209
+EIF401
+EIF402
+
+Optativa 
+3
+Ver cursos optativos
+
+Optativa 
+3
+Ver cursos optativos
+EIF410
+Informática y Sociedad
+2
+EIF401
+                                                                                     17 créditos
+			BACHILLERATO	           140 crd.
+
+OPTATIVOS DISCIPLINARIOS
+
+CODIGO
+NOMBRE
+REQUISITOS
+EIF100O
+Dispositivos para comunicaciones de Datos
+EIF 208 Comunicaciones y Redes de Computadores 
+
+EIF420O
+Inteligencia Artificial
+EIF 207 Estructuras de Datos
+
+EIF421O
+Análisis de Algoritmos
+EIF  207 Estructuras de Datos 
+MAY 231 Matemática para Informática II 
+EIF422O
+Diseño de Interfaces de usuario
+EIF 206 Programación III
+
+EIF424O
+Desarrollo de Aplicaciones Educativas
+EIF 204 Programación II
+EIF 206 Programación III
+EIF 206 Programación III
+EIF425O
+Diseño de Ambientes Multimediales
+
+EIF426O
+Diseño de Ambientes de Aprendizaje
+
+EIF427O
+Robótica
+EIF204  Programación II
+EIF428O
+Fundamentos de Programación Web
+EIF 206 Programación III
+EIF 211 Diseño e Implementación de Bases de Datos. 
+EIF431O
+Administración de servidores basados en software libre
+EIF212  Sistemas Operativos
+EIF402 Administración de Bases de Datos
+EIF 433 O
+Contexto, Desarrollo y Aplicación de Software Libre y de código abierto
+
+EIF 212 Sistemas Operativos 
+EIF 211  Diseño e Implementación de Bases de Datos
+
+EIF 434 O
+Minería de Datos I
+EIF 402 Administración de Bases de Datos
+MAY 223 Probabilidades y Estadística
+EIF 435 O
+Minería de Datos II
+EIF 434 O Minería de Datos I.
+EIG 416 O
+Gestión de Tecnología Educativa
+(060710) EIF 425 O Diseño de ambientes multimediales
+
+OPTATIVOS GENERALES:	
+							
+CODIGO
+NOMBRE
+EIF429O
+Introducción a la creación de Empresas
+EIF430O
+Las TIC’s en el Ámbito Jurídico de Costa Rica
+EIG417O
+Liderazgo y organizaciones
+EIG418O
+La organización y su entorno
