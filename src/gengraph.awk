@@ -8,16 +8,20 @@
 BEGIN{
 	FS="::"
 	printf "digraph G { \n"
-	printf "ranksep=.75 size = \"10.5,7.5\";"
+	printf "ranksep=.95 size = \"5.5,5.5\";"
+	{
+		printf "node [shape=box, fontsize=16, style=filled, nodesep=.70, color=\"#FCC37C\"];"
+		printf "START -> I_I -> I_II -> II_I -> II_II -> III_I -> III_II -> IV_I -> IV_II -> end;"
+	}
 }
-	function curso(columna,current){ # col  6
+	function curso(columna,current){
 		if ($columna ~ /(dipl|bsc)/) {
 			return
 		}else{
-			#entonces es un requisito
-			#printf "nivel %s ciclo %s ", $NF, $(NF-1)
 			printf "%s -> %s;\n" ,$columna ,$current
-			#printf "{rank = same; \"%s\"; \"%s\"}", $NF, $(NF-1)
+			if(!($NF ~ /_/)){
+				printf "{rank = same; %s_%s; %s}", $(NF-1), $NF,$current
+			}
 			columna = columna + 1
 			curso(columna, current)
 		}
@@ -28,43 +32,50 @@ BEGIN{
 	current = 2
 	curso(columnaDef,current)
 
+	if($(NF-2) ~ /^(dipl)/){
+		printf "%s -> \"DIPLOMADO\"", $2
+		printf "\"DIPLOMADO\" [shape=box, fontsize=16, style=filled, nodesep=.70,  fontcolor=white, color=\"#9E6534\"];"
+		printf "edge [ color=\"#9E6534\"];"
+	}else{
+		printf "%s -> \"BACHILLERATO\"", $2
+		printf "\"BACHILLERATO\" [shape=box, fontsize=16, style=filled, nodesep=.70, fontcolor=white,  color=\"#8C2B3D\"];"
+		printf "edge [color=\"#8C2B3D\"];"
+	}
+
 	if($2 ~ /^(MAY|MATEMATICA)/){
-		printf "%s [shape=box, style=filled, color=yellow]", $2
-		#printf "%s [shape=box, style=filled, color=yellow]", "MATEMATICA"
+		printf "%s [shape=box, style=filled, nodesep=.70, color=yellow]", $2
+		printf "%s [shape=box, style=filled, color=yellow]", "MATEMATICA"
 	}
 
 	if($2 ~ /^(EIF|CURSOS_CARRERA)/){
-		printf "%s [shape=box, style=filled, color=blue fontcolor=white]", $2
-		#printf "%s [shape=box, style=filled, color=blue fontcolor=white]", "CURSOS_CARRERA"
+		printf "%s [shape=box, style=filled,nodesep=.70, color=\"#204260\" fontcolor=white]", $2
+		printf "%s [shape=box, style=filled, color=\"#204260\" fontcolor=white]", "CURSOS_CARRERA"
 	}
 	if($2 ~ /^(LIX|INGLES)/){
-		printf "%s [shape=box, style=filled, color=red fontcolor=white]", $2
-		#printf "%s [shape=box, style=filled, color=red fontcolor=white]", "INGLES"
+		printf "%s [shape=box, style=filled,nodesep=.70, color=\"#FF2721\" fontcolor=white]", $2
+		printf "%s [shape=box, style=filled, color=\"#FF2721\" fontcolor=white]", "INGLES"
 	}
 	if($2 ~ /^(EIG|CURSOS_EIGS)/){
-		printf "%s [shape=box, style=filled, color=\"#02FF6C\"]", $2
-		#printf "%s [shape=box, style=filled, color=\"#02FF6C\"]", "CURSOS_EIGS"
+		printf "%s [shape=box, style=filled, nodesep=.70,color=\"#02FF6C\"]", $2
+		printf "%s [shape=box, style=filled, color=\"#02FF6C\"]", "CURSOS_EIGS"
 	}
 	if($2 ~ /^(Optativa|OPTATIVOS)/){
-		printf "%s [shape=box, style=filled, color=orange]", $2
-		#printf "%s [shape=box, style=filled, color=orange]", "OPTATIVOS"
+		printf "%s [shape=box, style=filled, nodesep=.70,color=orange]", $2
+		printf "%s [shape=box, style=filled, color=orange]", "OPTATIVOS"
 	}
 	if($2 ~ /^(EstudiosGenerales|CURSOS_GENERALES)/){
-		printf "%s [shape=box, style=filled, color=gray]", $2
-		#printf "%s [shape=box, style=filled, color=gray]", "CURSOS_GENERALES"
+		printf "%s [shape=box, style=filled, nodesep=.70,color=gray]", $2
+		printf "%s [shape=box, style=filled, color=gray]", "CURSOS_GENERALES"
 	}
 }
 
 END{
 
-	#printf "%s -> %s;\n" ,"CURSOS_CARRERA" ,"OPTATIVOS"
-	#printf "%s -> %s;\n" ,"OPTATIVOS" ,"CURSOS_EIGS"
-	#printf "%s -> %s;\n" ,"CURSOS_EIGS" ,"MATEMATICA"
-	#printf "%s -> %s;\n" ,"MATEMATICA" ,"INGLES"
-	#printf "%s -> %s;\n" ,"INGLES" ,"CURSOS_GENERALES"
-
-	printf "{rank = same; \"Admission\"; \"Start\"}"
-	printf "{rank = same; \"EIF200\"; \"I_I\"}"
+	printf "%s -> %s;\n" ,"CURSOS_CARRERA" ,"OPTATIVOS"
+	printf "%s -> %s;\n" ,"OPTATIVOS" ,"CURSOS_EIGS"
+	printf "%s -> %s;\n" ,"CURSOS_EIGS" ,"MATEMATICA"
+	printf "%s -> %s;\n" ,"MATEMATICA" ,"INGLES"
+	printf "%s -> %s;\n" ,"INGLES" ,"CURSOS_GENERALES"
 	printf "Admission [shape=invhouse,sides=8,peripheries=3,color=\"#7DE802\",style=filled]"
 	print "}"
 }
