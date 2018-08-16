@@ -5,6 +5,6 @@
 :- ['pl.ini'].
 :- ['../prolog_output/study_plan'].
 
-all_leaves(AL) :- throw('*** Unimplemented ***')
-.
+all_leaves(AL) :- throw('*** Unimplemented ***').
+
 
