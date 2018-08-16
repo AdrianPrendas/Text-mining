@@ -1,0 +1,1 @@
+awk -f src/compose.awk study_plan_input/study_plan.txt > ./compose_output/composed_plan.txt
