@@ -4,11 +4,11 @@
 :- discontiguous course_req/2.
 % --- 'EIF200' ---
 course('EIF200').
-course('EIF200', 1, regular, dipl, 3, 1, 1, 'Fundamentos de Inform醫ica' ).
+course('EIF200', 1, regular, dipl, 3, 1, 1, 'Fundamentos de Inform谩tica' ).
 course_req('EIF200', 'Admission').
 % --- 'MAY230' ---
 course('MAY230').
-course('MAY230', 2, regular, dipl, 4, 1, 1, 'Matem醫ica para Inform醫ica I' ).
+course('MAY230', 2, regular, dipl, 4, 1, 1, 'Matem谩tica para Inform谩tica I' ).
 course_req('MAY230', 'Admission').
 % --- 'EstudiosGeneralesI' ---
 course('EstudiosGeneralesI').
@@ -20,16 +20,16 @@ course('EstudiosGeneralesII', 4, regular, dipl, 3, 1, 1, 'Estudios Generales II'
 course_req('EstudiosGeneralesII', 'Admission').
 % --- 'LIX410' ---
 course('LIX410').
-course('LIX410', 5, regular, dipl, 4, 1, 1, 'Ingl閟 Integrado I' ).
+course('LIX410', 5, regular, dipl, 4, 1, 1, 'Ingl茅s Integrado I' ).
 course_req('LIX410', 'Admission').
 % --- 'EIF201' ---
 course('EIF201').
-course('EIF201', 6, regular, dipl, 4, 1, 2, 'Programaci髇 I' ).
+course('EIF201', 6, regular, dipl, 4, 1, 2, 'Programaci贸n I' ).
 course_req('EIF201', 'EIF200').
 course_req('EIF201', 'MAY230').
 % --- 'MAY231' ---
 course('MAY231').
-course('MAY231', 7, regular, dipl, 4, 1, 2, 'Matem醫ica para Inform醫ica II' ).
+course('MAY231', 7, regular, dipl, 4, 1, 2, 'Matem谩tica para Inform谩tica II' ).
 course_req('MAY231', 'MAY230').
 % --- 'EstudiosGeneralesIII' ---
 course('EstudiosGeneralesIII').
@@ -41,32 +41,32 @@ course('EstudiosGeneralesIV', 9, regular, dipl, 3, 1, 2, 'Estudios Generales IV'
 course_req('EstudiosGeneralesIV', 'Admission').
 % --- 'LIX411' ---
 course('LIX411').
-course('LIX411', 10, regular, dipl, 4, 1, 2, 'Ingl閟 Integrado II' ).
+course('LIX411', 10, regular, dipl, 4, 1, 2, 'Ingl茅s Integrado II' ).
 course_req('LIX411', 'LIX410').
 % --- 'EIF204' ---
 course('EIF204').
-course('EIF204', 11, regular, dipl, 4, 2, 1, 'Programaci髇 II' ).
+course('EIF204', 11, regular, dipl, 4, 2, 1, 'Programaci贸n II' ).
 course_req('EIF204', 'EIF201').
 % --- 'MAY232' ---
 course('MAY232').
-course('MAY232', 12, regular, dipl, 4, 2, 1, 'Matem醫ica para Inform醫ica III' ).
+course('MAY232', 12, regular, dipl, 4, 2, 1, 'Matem谩tica para Inform谩tica III' ).
 course_req('MAY232', 'MAY231').
 % --- 'EIF202' ---
 course('EIF202').
-course('EIF202', 13, regular, dipl, 3, 2, 1, 'Soporte T閏nico' ).
+course('EIF202', 13, regular, dipl, 3, 2, 1, 'Soporte T茅cnico' ).
 course_req('EIF202', 'EIF200').
 % --- 'EIF203' ---
 course('EIF203').
-course('EIF203', 14, regular, dipl, 3, 2, 1, 'Estructuras Discretas para Inform醫ica' ).
+course('EIF203', 14, regular, dipl, 3, 2, 1, 'Estructuras Discretas para Inform谩tica' ).
 course_req('EIF203', 'EIF200').
 course_req('EIF203', 'MAY230').
 % --- 'LIX412' ---
 course('LIX412').
-course('LIX412', 15, regular, dipl, 4, 2, 1, 'Ingl閟 Integrado III' ).
+course('LIX412', 15, regular, dipl, 4, 2, 1, 'Ingl茅s Integrado III' ).
 course_req('LIX412', 'LIX411').
 % --- 'EIF206' ---
 course('EIF206').
-course('EIF206', 16, regular, dipl, 4, 2, 2, 'Programaci髇 III' ).
+course('EIF206', 16, regular, dipl, 4, 2, 2, 'Programaci贸n III' ).
 course_req('EIF206', 'EIF204').
 course_req('EIF206', 'MAY231').
 % --- 'EIF207' ---
@@ -81,24 +81,24 @@ course_req('EIF205', 'EIF201').
 course_req('EIF205', 'EIF202').
 % --- 'EIF404' ---
 course('EIF404').
-course('EIF404', 19, regular, dipl, 3, 2, 2, 'La Organizaci髇 y su Entorno' ).
+course('EIF404', 19, regular, dipl, 3, 2, 2, 'La Organizaci贸n y su Entorno' ).
 course_req('EIF404', 'EIF201').
 % --- 'MAY223' ---
 course('MAY223').
-course('MAY223', 20, regular, dipl, 3, 2, 2, 'Probabilidad y Estad韘tica para Inform醫ica' ).
+course('MAY223', 20, regular, dipl, 3, 2, 2, 'Probabilidad y Estad铆stica para Inform谩tica' ).
 course_req('MAY223', 'MAY231').
 course_req('MAY223', 'EIF203').
 % --- 'EIF209' ---
 course('EIF209').
-course('EIF209', 21, regular, dipl, 4, 3, 1, 'Programaci髇 IV' ).
+course('EIF209', 21, regular, dipl, 4, 3, 1, 'Programaci贸n IV' ).
 course_req('EIF209', 'EIF206').
 % --- 'EIF210' ---
 course('EIF210').
-course('EIF210', 22, regular, dipl, 4, 3, 1, 'Ingenier韆 de Sistemas  I' ).
+course('EIF210', 22, regular, dipl, 4, 3, 1, 'Ingenier铆a de Sistemas  I' ).
 course_req('EIF210', 'EIF206').
 % --- 'EIF211' ---
 course('EIF211').
-course('EIF211', 23, regular, dipl, 4, 3, 1, 'Dise駉 e Implementaci髇 de Bases de Datos' ).
+course('EIF211', 23, regular, dipl, 4, 3, 1, 'Dise帽o e Implementaci贸n de Bases de Datos' ).
 course_req('EIF211', 'EIF206').
 course_req('EIF211', 'EIF207').
 % --- 'EIF212' ---
@@ -112,137 +112,146 @@ course('EIF208', 25, regular, dipl, 3, 3, 1, 'Comunicaciones y Redes de Computad
 course_req('EIF208', 'EIF205').
 % --- 'EIF400' ---
 course('EIF400').
-course('EIF400', 26, regular, bsc, 4, 3, 2, 'Paradigmas de Programaci髇' ).
+course('EIF400', 26, regular, bsc, 4, 3, 2, 'Paradigmas de Programaci贸n' ).
 course_req('EIF400', 'EIF206').
 % --- 'EIF401' ---
 course('EIF401').
-course('EIF401', 27, regular, bsc, 4, 3, 2, 'Ingenier韆 de Sistemas II' ).
+course('EIF401', 27, regular, bsc, 4, 3, 2, 'Ingenier铆a de Sistemas II' ).
 course_req('EIF401', 'EIF210').
 % --- 'EIF402' ---
 course('EIF402').
-course('EIF402', 28, regular, bsc, 4, 3, 2, 'Administraci髇 de Bases de Datos' ).
+course('EIF402', 28, regular, bsc, 4, 3, 2, 'Administraci贸n de Bases de Datos' ).
 course_req('EIF402', 'EIF212').
 course_req('EIF402', 'EIF211').
 % --- 'EIF405' ---
 course('EIF405').
-course('EIF405', 29, regular, bsc, 3, 3, 2, 'Investigaci髇 de Operaciones y sus Aplicaciones' ).
+course('EIF405', 29, regular, bsc, 3, 3, 2, 'Investigaci贸n de Operaciones y sus Aplicaciones' ).
 course_req('EIF405', 'MAY232').
 course_req('EIF405', 'MAY223').
 % --- 'EIF407' ---
 course('EIF407').
-course('EIF407', 30, regular, bsc, 3, 3, 2, 'Liderazgo y Organizaci髇 ' ).
+course('EIF407', 30, regular, bsc, 3, 3, 2, 'Liderazgo y Organizaci贸n ' ).
 course_req('EIF407', 'EIF404').
+% --- 'EIFXXX' ---
+course('EIFXXX').
+course('EIFXXX', 31, regular, bsc, 4, 4, 1, 'Dise帽o y programaci贸n de plataformas M贸viles' ).
+course_req('EIFXXX', 'EIF209').
+course_req('EIFXXX', 'EIF428 O').
 % --- 'EIF406' ---
 course('EIF406').
-course('EIF406', 31, regular, bsc, 4, 4, 1, 'Ingenier韆 de Sistemas III' ).
+course('EIF406', 32, regular, bsc, 4, 4, 1, 'Ingenier铆a de Sistemas III' ).
 course_req('EIF406', 'EIF401').
 % --- 'OptativaI' ---
 course('OptativaI').
-course('OptativaI', 32, generic, bsc, 3, 4, 1, 'Optativa ' ).
+course('OptativaI', 33, generic, bsc, 3, 4, 1, 'Optativa ' ).
 course_req('OptativaI', 'Admission').
 % --- 'OptativaII' ---
 course('OptativaII').
-course('OptativaII', 33, generic, bsc, 3, 4, 1, 'Optativa ' ).
+course('OptativaII', 34, generic, bsc, 3, 4, 1, 'Optativa ' ).
 course_req('OptativaII', 'Admission').
 % --- 'EIF403' ---
 course('EIF403').
-course('EIF403', 34, regular, bsc, 3, 4, 1, 'M閠odos de Investigaci髇 Cient韋ica en Inform醫ica' ).
+course('EIF403', 35, regular, bsc, 3, 4, 1, 'M茅todos de Investigaci贸n Cient铆fica en Inform谩tica' ).
 course_req('EIF403', 'MAY223').
 % --- 'EIF408' ---
 course('EIF408').
-course('EIF408', 35, regular, bsc, 5, 4, 2, 'Proyectos y su Aplicaci髇 en la Organizaci髇 (PPS)' ).
+course('EIF408', 36, regular, bsc, 5, 4, 2, 'Proyectos y su Aplicaci贸n en la Organizaci贸n (PPS)' ).
 course_req('EIF408', 'EIF209').
 course_req('EIF408', 'EIF401').
 course_req('EIF408', 'EIF402').
 % --- 'EIF409' ---
 course('EIF409').
-course('EIF409', 36, regular, bsc, 4, 4, 2, 'Aplicaciones Inform醫icas Globales' ).
+course('EIF409', 37, regular, bsc, 4, 4, 2, 'Aplicaciones Inform谩ticas Globales' ).
 course_req('EIF409', 'EIF209').
 course_req('EIF409', 'EIF401').
 course_req('EIF409', 'EIF402').
 % --- 'OptativaIII' ---
 course('OptativaIII').
-course('OptativaIII', 37, generic, bsc, 3, 4, 2, 'Optativa ' ).
+course('OptativaIII', 38, generic, bsc, 3, 4, 2, 'Optativa ' ).
 course_req('OptativaIII', 'Admission').
 % --- 'OptativaIV' ---
 course('OptativaIV').
-course('OptativaIV', 38, generic, bsc, 3, 4, 2, 'Optativa ' ).
+course('OptativaIV', 39, generic, bsc, 3, 4, 2, 'Optativa ' ).
 course_req('OptativaIV', 'Admission').
 % --- 'EIF410' ---
 course('EIF410').
-course('EIF410', 39, regular, bsc, 2, 4, 2, 'Inform醫ica y Sociedad' ).
+course('EIF410', 40, regular, bsc, 2, 4, 2, 'Inform谩tica y Sociedad' ).
 course_req('EIF410', 'EIF401').
 % --- 'EIF100O' ---
 course('EIF100O').
-course('EIF100O', 40, optional, bsc, 3, none, none, 'Dispositivos para comunicaciones de Datos' ).
+course('EIF100O', 41, optional, bsc, 3, none, none, 'Dispositivos para comunicaciones de Datos' ).
 course_req('EIF100O', 'EIF208').
 % --- 'EIF420O' ---
 course('EIF420O').
-course('EIF420O', 41, optional, bsc, 3, none, none, 'Inteligencia Artificial' ).
+course('EIF420O', 42, optional, bsc, 3, none, none, 'Inteligencia Artificial' ).
 course_req('EIF420O', 'EIF207').
 % --- 'EIF421O' ---
 course('EIF421O').
-course('EIF421O', 42, optional, bsc, 3, none, none, 'An醠isis de Algoritmos' ).
+course('EIF421O', 43, optional, bsc, 3, none, none, 'An谩lisis de Algoritmos' ).
 course_req('EIF421O', 'EIF207').
 course_req('EIF421O', 'MAY231').
 % --- 'EIF422O' ---
 course('EIF422O').
-course('EIF422O', 43, optional, bsc, 3, none, none, 'Dise駉 de Interfaces de usuario' ).
+course('EIF422O', 44, optional, bsc, 3, none, none, 'Dise帽o de Interfaces de usuario' ).
 course_req('EIF422O', 'EIF206').
 % --- 'EIF424O' ---
 course('EIF424O').
-course('EIF424O', 44, optional, bsc, 3, none, none, 'Desarrollo de Aplicaciones Educativas' ).
+course('EIF424O', 45, optional, bsc, 3, none, none, 'Desarrollo de Aplicaciones Educativas' ).
 course_req('EIF424O', 'EIF204').
 course_req('EIF424O', 'EIF206').
 % --- 'EIF425O' ---
 course('EIF425O').
-course('EIF425O', 45, optional, bsc, 3, none, none, 'Dise駉 de Ambientes Multimediales' ).
+course('EIF425O', 46, optional, bsc, 3, none, none, 'Dise帽o de Ambientes Multimediales' ).
 course_req('EIF425O', 'Admission').
 % --- 'EIF426O' ---
 course('EIF426O').
-course('EIF426O', 46, optional, bsc, 3, none, none, 'Dise駉 de Ambientes de Aprendizaje' ).
+course('EIF426O', 47, optional, bsc, 3, none, none, 'Dise帽o de Ambientes de Aprendizaje' ).
 course_req('EIF426O', 'Admission').
 % --- 'EIF427O' ---
 course('EIF427O').
-course('EIF427O', 47, optional, bsc, 3, none, none, 'Rob髏ica' ).
+course('EIF427O', 48, optional, bsc, 3, none, none, 'Rob贸tica' ).
 course_req('EIF427O', 'EIF204').
 % --- 'EIF428O' ---
 course('EIF428O').
-course('EIF428O', 48, optional, bsc, 3, none, none, 'Fundamentos de Programaci髇 Web' ).
+course('EIF428O', 49, optional, bsc, 3, none, none, 'Fundamentos de Programaci贸n Web' ).
 course_req('EIF428O', 'EIF206').
 course_req('EIF428O', 'EIF211').
 % --- 'EIF431O' ---
 course('EIF431O').
-course('EIF431O', 49, optional, bsc, 3, none, none, 'Administraci髇 de servidores basados en software libre' ).
+course('EIF431O', 50, optional, bsc, 3, none, none, 'Administraci贸n de servidores basados en software libre' ).
 course_req('EIF431O', 'EIF212').
 course_req('EIF431O', 'EIF402').
 % --- 'EIF433O' ---
 course('EIF433O').
-course('EIF433O', 50, optional, bsc, 3, none, none, 'Contexto, Desarrollo y Aplicaci髇 de Software Libre y de c骴igo abierto' ).
+course('EIF433O', 51, optional, bsc, 3, none, none, 'Contexto, Desarrollo y Aplicaci贸n de Software Libre y de c贸digo abierto' ).
 course_req('EIF433O', 'EIF212').
 course_req('EIF433O', 'EIF211').
 % --- 'EIF434O' ---
 course('EIF434O').
-course('EIF434O', 51, optional, bsc, 3, none, none, 'Miner韆 de Datos I' ).
+course('EIF434O', 52, optional, bsc, 3, none, none, 'Miner铆a de Datos I' ).
 course_req('EIF434O', 'EIF402').
 course_req('EIF434O', 'MAY223').
 % --- 'EIF435O' ---
 course('EIF435O').
-course('EIF435O', 52, optional, bsc, 3, none, none, 'Miner韆 de Datos II' ).
-course_req('EIF435O', 'EIF434O').
+course('EIF435O', 53, optional, bsc, 3, none, none, 'Miner铆a de Datos II' ).
+course_req('EIF435O', 'EIF434').
 % --- 'EIG416O' ---
 course('EIG416O').
-course('EIG416O', 53, optional, bsc, 3, none, none, 'Gesti髇 de Tecnolog韆 Educativa' ).
+course('EIG416O', 54, optional, bsc, 3, none, none, 'Gesti贸n de Tecnolog铆a Educativa' ).
 course_req('EIG416O', 'EIF425O').
+% --- 'EIF429O' ---
+course('EIF429O').
+course('EIF429O', 55, optional, bsc, 3, none, none, 'Introducci贸n a la creaci贸n de Empresas' ).
+course_req('EIF429O', 'Admission').
 % --- 'EIF430O' ---
 course('EIF430O').
-course('EIF430O', 54, optional, bsc, 3, none, none, 'Las TIC抯 en el 羗bito Jur韉ico de Costa Rica' ).
+course('EIF430O', 56, optional, bsc, 3, none, none, 'Las TIC鈥檚 en el 脕mbito Jur铆dico de Costa Rica' ).
 course_req('EIF430O', 'Admission').
 % --- 'EIG417O' ---
 course('EIG417O').
-course('EIG417O', 55, optional, bsc, 3, none, none, 'Liderazgo y organizaciones' ).
+course('EIG417O', 57, optional, bsc, 3, none, none, 'Liderazgo y organizaciones' ).
 course_req('EIG417O', 'Admission').
 % --- 'EIG418O' ---
 course('EIG418O').
-course('EIG418O', 56, optional, bsc, 3, none, none, 'La organizaci髇 y su entorno' ).
+course('EIG418O', 58, optional, bsc, 3, none, none, 'La organizaci贸n y su entorno' ).
 course_req('EIG418O', 'Admission').

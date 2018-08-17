@@ -1,4 +1,4 @@
-INGENIERIA EN SISTEMAS DE INFORMACI覰 CON GRADO DE BACHILLERATO Y SALIDA LATERAL DE DIPLOMADO EN PROGRAMACI覰 DE APLICACIONES INFORM罷ICAS
+INGENIERIA EN SISTEMAS DE INFORMACI脫N CON GRADO DE BACHILLERATO Y SALIDA LATERAL DE DIPLOMADO EN PROGRAMACI脫N DE APLICACIONES INFORM脕TICAS
 Estudiantes que ingresan en el 2012
 
 I Nivel
@@ -11,12 +11,12 @@ CR.
 REQUISITOS
 
 EIF200
-Fundamentos de Inform醫ica
+Fundamentos de Inform谩tica
 3
 Ingreso a Carrera
 
 MAY230
-Matem醫ica para Inform醫ica I
+Matem谩tica para Inform谩tica I
 4
 Ingreso a Carrera
 
@@ -29,12 +29,12 @@ Estudios Generales II
 Ver cursos generales
 
 LIX-410
-Ingl閟 Integrado I
+Ingl茅s Integrado I
 4
 Ingreso a Carrera
 
  
-17 cr閐itos
+17 cr茅ditos
 
 II Ciclo 
 
@@ -44,13 +44,13 @@ CR.
 REQUISITOS
 
 EIF201
-Programaci髇 I
+Programaci贸n I
 4
 EIF200
 MAY230
 
 MAY231
-Matem醫ica para Inform醫ica II
+Matem谩tica para Inform谩tica II
 4
 MAY230
 
@@ -63,12 +63,12 @@ Estudios Generales IV
 Ver cursos generales
 
 LIX-411
-Ingl閟 Integrado II
+Ingl茅s Integrado II
 4
 LIX-410
 
 
-18 cr閐itos
+18 cr茅ditos
 
 II Nivel
 
@@ -80,33 +80,33 @@ CR.
 REQUISITOS
 
 EIF204
-Programaci髇 II
+Programaci贸n II
 4
 EIF201
 
 MAY232
-Matem醫ica para Inform醫ica III
+Matem谩tica para Inform谩tica III
 4
 MAY231
 
 EIF202
-Soporte T閏nico
+Soporte T茅cnico
 3
 EIF200
 
 EIF203
-Estructuras Discretas para Inform醫ica
+Estructuras Discretas para Inform谩tica
 3
 EIF200
 MAY230
 
 LIX-412
-Ingl閟 Integrado III
+Ingl茅s Integrado III
 4
 LIX-411
 
  
-18 cr閐itos
+18 cr茅ditos
 
 II Ciclo
 
@@ -116,7 +116,7 @@ CR.
 REQUISITOS
 
 EIF206
-Programaci髇 III
+Programaci贸n III
 4
 EIF204
 MAY231
@@ -134,17 +134,17 @@ EIF201
 EIF202
 
 EIF404
-La Organizaci髇 y su Entorno
+La Organizaci贸n y su Entorno
 3
 EIF201
 
 MAY223
-Probabilidad y Estad韘tica para Inform醫ica
+Probabilidad y Estad铆stica para Inform谩tica
 3
 MAY231
 EIF203
 
-17 cr閐itos
+17 cr茅ditos
 
 III Nivel
 
@@ -156,17 +156,17 @@ CR.
 REQUISITOS
 
 EIF209
-Programaci髇 IV
+Programaci贸n IV
 4
 EIF206
 
 EIF210
-Ingenier韆 de Sistemas  I
+Ingenier铆a de Sistemas  I
 4
 EIF206
 
 EIF211
-Dise駉 e Implementaci髇 de Bases de Datos
+Dise帽o e Implementaci贸n de Bases de Datos
 4
 EIF206
 EIF207
@@ -182,7 +182,7 @@ Comunicaciones y Redes de Computadores
 3
 EIF205
 
-18 cr閐itos
+18 cr茅ditos
 
 DIPLOMADO	           88  Crd.
 
@@ -193,33 +193,33 @@ CR.
 REQUISITOS
 
 EIF400
-Paradigmas de Programaci髇
+Paradigmas de Programaci贸n
 4
 EIF206
 
 EIF401
-Ingenier韆 de Sistemas II
+Ingenier铆a de Sistemas II
 4
 EIF210
 
 EIF402
-Administraci髇 de Bases de Datos
+Administraci贸n de Bases de Datos
 4
 EIF212
 EIF211
 
 EIF405
-Investigaci髇 de Operaciones y sus Aplicaciones
+Investigaci贸n de Operaciones y sus Aplicaciones
 3
 MAY232
 MAY223
 
 EIF407
-Liderazgo y Organizaci髇 
+Liderazgo y Organizaci贸n 
 3
 EIF404
 
-18 cr閐itos
+18 cr茅ditos
 
 IV Nivel
 
@@ -228,14 +228,15 @@ I Ciclo
 NOMBRE
 CR.
 REQUISITOS
+
 EIF XXX
-Dise駉 y programaci髇 de plataformas M髒iles
+Dise帽o y programaci贸n de plataformas M贸viles
 4
 EIF209
 EIF428 O
 
 EIF406
-Ingenier韆 de Sistemas III
+Ingenier铆a de Sistemas III
 4
 EIF401
 
@@ -248,11 +249,11 @@ Optativa
 Ver cursos optativos
 
 EIF403
-M閠odos de Investigaci髇 Cient韋ica en Inform醫ica
+M茅todos de Investigaci贸n Cient铆fica en Inform谩tica
 3
 MAY223
 
-17 cr閐itos
+17 cr茅ditos
 
 II Ciclo
 
@@ -262,14 +263,14 @@ CR.
 REQUISITOS
 
 EIF408
-Proyectos y su Aplicaci髇 en la Organizaci髇 (PPS)
+Proyectos y su Aplicaci贸n en la Organizaci贸n (PPS)
 5
 EIF209
 EIF401
 EIF402
 
 EIF409
-Aplicaciones Inform醫icas Globales
+Aplicaciones Inform谩ticas Globales
 4
 EIF209
 EIF401
@@ -284,11 +285,11 @@ Optativa
 Ver cursos optativos
 
 EIF410
-Inform醫ica y Sociedad
+Inform谩tica y Sociedad
 2
 EIF401
 
-17 cr閐itos
+17 cr茅ditos
 
 BACHILLERATO	           140 crd.
 
@@ -307,71 +308,71 @@ Inteligencia Artificial
 EIF 207 Estructuras de Datos
 
 EIF421O
-An醠isis de Algoritmos
+An谩lisis de Algoritmos
 EIF  207 Estructuras de Datos 
-MAY 231 Matem醫ica para Inform醫ica II 
+MAY 231 Matem谩tica para Inform谩tica II 
 
 EIF422O
-Dise駉 de Interfaces de usuario
-EIF 206 Programaci髇 III
+Dise帽o de Interfaces de usuario
+EIF 206 Programaci贸n III
 
 EIF424O
 Desarrollo de Aplicaciones Educativas
-EIF 204 Programaci髇 II
-EIF 206 Programaci髇 III
+EIF 204 Programaci贸n II
+EIF 206 Programaci贸n III
 
 EIF425O
-Dise駉 de Ambientes Multimediales
+Dise帽o de Ambientes Multimediales
 
 EIF426O
-Dise駉 de Ambientes de Aprendizaje
+Dise帽o de Ambientes de Aprendizaje
 
 EIF427O
-Rob髏ica
-EIF204  Programaci髇 II
+Rob贸tica
+EIF204  Programaci贸n II
 
 EIF428O
-Fundamentos de Programaci髇 Web
-EIF 206 Programaci髇 III
-EIF 211 Dise駉 e Implementaci髇 de Bases de Datos. 
+Fundamentos de Programaci贸n Web
+EIF 206 Programaci贸n III
+EIF 211 Dise帽o e Implementaci贸n de Bases de Datos. 
 
 EIF431O
-Administraci髇 de servidores basados en software libre
+Administraci贸n de servidores basados en software libre
 EIF212  Sistemas Operativos
-EIF402 Administraci髇 de Bases de Datos
+EIF402 Administraci贸n de Bases de Datos
 
 EIF 433 O
-Contexto, Desarrollo y Aplicaci髇 de Software Libre y de c骴igo abierto
+Contexto, Desarrollo y Aplicaci贸n de Software Libre y de c贸digo abierto
 EIF 212 Sistemas Operativos 
-EIF 211  Dise駉 e Implementaci髇 de Bases de Datos
+EIF 211  Dise帽o e Implementaci贸n de Bases de Datos
 
 EIF 434 O
-Miner韆 de Datos I
-EIF 402 Administraci髇 de Bases de Datos
-MAY 223 Probabilidades y Estad韘tica
+Miner铆a de Datos I
+EIF 402 Administraci贸n de Bases de Datos
+MAY 223 Probabilidades y Estad铆stica
 
 EIF 435 O
-Miner韆 de Datos II
-EIF 434 O Miner韆 de Datos I.
+Miner铆a de Datos II
+EIF 434 O Miner铆a de Datos I.
 
 EIG 416 O
-Gesti髇 de Tecnolog韆 Educativa
-(060710) EIF 425 O Dise駉 de ambientes multimediales
+Gesti贸n de Tecnolog铆a Educativa
+(060710) EIF 425 O Dise帽o de ambientes multimediales
 
 OPTATIVOS GENERALES:	
 							
 CODIGO
 NOMBRE
-EIF429O
 
-Introducci髇 a la creaci髇 de Empresas
+EIF429O
+Introducci贸n a la creaci贸n de Empresas
 
 EIF430O
-Las TIC抯 en el 羗bito Jur韉ico de Costa Rica
+Las TIC鈥檚 en el 脕mbito Jur铆dico de Costa Rica
 
 EIG417O
 Liderazgo y organizaciones
 
 EIG418O
-La organizaci髇 y su entorno
+La organizaci贸n y su entorno
 
