@@ -15,7 +15,8 @@
 # 4) Nombre: JOAQUÍN ALEJANDRO SÁNCHEZ BARBOZA ID:114160575 correo: j.alejandro.1290@gmail.com HORARIO: 01 pm
 #
 
-BEGIN {
+
+BEGIN { 
 	RS = "\r\n\r\n"  # Record separator
 	FS = "\r\n"      # Field separator
 	OFS = "::" 		 # Output field separator
@@ -25,80 +26,81 @@ BEGIN {
 	ciclo = ""
 }
 
-/Nivel/{ #/^(I{1,3}|IV) Nivel/   #FS !~ /\s*/
-
-	split($0,arr," ") 	# [1]="I"  [2]="Ciclo/Nivel"
-	nivel = arr[1]  	# array start at 1 ??¿¿
+/Nivel/{
+	split($0, arr, " ") 	# [1]="I"  [2]="Ciclo || Nivel"
+	nivel = arr[1]  	
 	opt[i++] = arr[1]   # Uso ese array con {I,II,III,IV} para las optativas
 }
 
-/Ciclo/{ #/^(I{1,3}|IV) Ciclo/   #FS !~ /\s*/
-
-	split($0,arr," ") 	# [1]="I"  [2]="Ciclo/Nivel"
-	ciclo = arr[1]  	# array start at 1 ??¿¿
+/Ciclo/{
+	split($0, arr, " ") 	# [1]="I"  [2]="Ciclo/Nivel"
+	ciclo = arr[1]
 }
 
 /^DIPLOMADO/{ # after dipl -> bsc
-	grado = "bsc"
+	grado = "bsc" 
 }
 
 /^BACHILLERATO/{
-	ciclo=nivel="_"
+	ciclo = nivel = "_"
 }
 
 /^(EIF|EIG|MAY|LIX|Optativa|Estudios)/{
 
-	if($0 ~ /Estudios/ || /Optativa/){
+	if($0 ~ /Estudios/ || /Optativa/){	# No cuenta con NRC, hay que invertir valores.
 		$4 = "Admission"
 		$3 = $2
 		$2 = $1
-
-		gsub(" ", "", $1)
-
+		
 			if($0 ~ /Optativa/){
 				$1 = $1opt[cont++] # Guardo los niveles y luego los reutilizo como numerax para Optativa
 			}
 	}
-
-	 gsub(" ", "", $1) # Cuidado con el orden
-	 if($1 ~ /EI(F|G)[0-9][0-9][0-9]O/){	#Optativas
-		if(NF == 2){
-			$3 = 3
+	 
+	 gsub(" ", "", $1);
+	 
+	if($1 == "EIFXXX"){	# Caso especial EIFXXX.
+		gsub(" ", "", $5);
+	}
+	 
+	if($1 ~ /EI(F|G)[0-9][0-9][0-9]O/){	#Optativas Generales y Optativas Disciplinarias.
+	
+		if(NF == 2){	# Optativa no tiene Requisitos.
 			$4 = "Admission"
 		}
+		
+		else if(NF >= 3){ # Optativa tiene 1 o más requisitos
 
-		else if(NF >= 3){
-			var1 = $3
-			$3 = 3
-
-			gsub(" ", "", var1)
-
-			if(NF == 4){
-				var2 = $4
-				gsub(" ", "", var2)
-				if(var2 ~ /EIF\s*[0-9]{3}/ || /MAY\s*[0-9]{3}/){ #Respetar este orden
-					$5 = substr(var2, 1, 6)
-				}
+			requisito1 = $3 # $3 será los créditos, por el momento es un requisito.
+			
+			gsub(" ", "", requisito1) #Se juntan todas las palabras del primer requisito.
+			
+			if(NF == 4){	# Optativa cuenta con 2 requisitos
+				requisito2 = $4
+				gsub(" ", "", requisito2)
+				$5 = substr(requisito2, 1, 6)
+				
 			}
-
-			if($1 == "EIG416O"){
-				$4 = substr(var1, 9, 7)
+			
+			if($1 == "EIG416O"){ # Caso especial
+				$4 = substr(requisito1, 9, 7)
 			}
-
-			else if(var1 ~ /EIF\s*[0-9]{3}/){ #Respetar este orden
-				$4 = substr(var1, 1, 6)
+			
+			else if(requisito1 ~ /EIF\s*[0-9]{3}/){		# Caso especial
+				$4 = substr(requisito1, 1 , ($1 == "EIF435O")? 7 : 6);
 			}
-
-			else if(var1 ~ /EIF\s*[0-9]{3}O/){ # De lo contrario se anulan.
-				$4 = substr(var1, 1, 7)
-			}
-
+			
 		}
+		
+		$3 = 3 # Se asignan 3 créditos a las Optativas.
+		
 	}
-
-	 gsub("-", "", $0)
-	 gsub("\r\n", "::", $0)
+	 
+	 gsub("-", "", $0)	# Elimina los "-" de cursos de inglés.
+	 
+	 gsub("\r\n", "::", $0)	# Cambia la separación de los cambios de línea "\n" a "::"
+	 
 	 gsub("Ingreso a Carrera", "Admission", $0)
 
-	print nn++, $0, grado, nivel, ciclo
+	print nn++, $0, grado, nivel, ciclo			
 }
