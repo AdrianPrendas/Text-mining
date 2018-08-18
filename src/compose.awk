@@ -15,8 +15,7 @@
 # 4) Nombre: JOAQUÍN ALEJANDRO SÁNCHEZ BARBOZA ID:114160575 correo: j.alejandro.1290@gmail.com HORARIO: 01 pm
 #
 
-
-BEGIN { 
+BEGIN {
 	RS = "\r\n\r\n"  # Record separator
 	FS = "\r\n"      # Field separator
 	OFS = "::" 		 # Output field separator
@@ -40,7 +39,7 @@ BEGIN {
 }
 
 /^DIPLOMADO/{ # after dipl -> bsc
-	grado = "bsc" 
+	grado = "bsc"
 }
 
 /^BACHILLERATO/{
@@ -53,27 +52,27 @@ BEGIN {
 		$4 = "Admission"
 		$3 = $2
 		$2 = $1
-		
+
 		gsub(" ", "", $1)
-		
+
 			if($0 ~ /Optativa/){
 				$1 = $1opt[cont++] # Guardo los niveles y luego los reutilizo como numerax para Optativa
 			}
 	}
-	 
+
 	 gsub(" ", "", $1) # Cuidado con el orden
 	 if($1 ~ /EI(F|G)[0-9][0-9][0-9]O/){	#Optativas
 		if(NF == 2){
 			$3 = 3
 			$4 = "Admission"
 		}
-		
+
 		else if(NF >= 3){
 			var1 = $3
 			$3 = 3
-			
+
 			gsub(" ", "", var1)
-			
+
 			if(NF == 4){
 				var2 = $4
 				gsub(" ", "", var2)
@@ -81,25 +80,25 @@ BEGIN {
 					$5 = substr(var2, 1, 6)
 				}
 			}
-			
-			if($1 == "EIG416O"){ 
+
+			if($1 == "EIG416O"){
 				$4 = substr(var1, 9, 7)
 			}
-			
+
 			else if(var1 ~ /EIF\s*[0-9]{3}/){ #Respetar este orden
 				$4 = substr(var1, 1, 6)
 			}
-			
+
 			else if(var1 ~ /EIF\s*[0-9]{3}O/){ # De lo contrario se anulan.
 				$4 = substr(var1, 1, 7)
 			}
-			
+
 		}
 	}
-	 
+
 	 gsub("-", "", $0)
 	 gsub("\r\n", "::", $0)
 	 gsub("Ingreso a Carrera", "Admission", $0)
 
-	print nn++, $0, grado, nivel, ciclo			
+	print nn++, $0, grado, nivel, ciclo
 }
