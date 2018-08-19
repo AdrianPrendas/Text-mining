@@ -57,6 +57,6 @@ echo -e "\r\n*** Generating Prolog ***"
 echo -e "Processing File: \t src/genprolog.awk"
 echo -e "Input File: \t\t compose_output/composed_plan.txt"
 echo -e "Output File: \t\t prolog_output/study_plan.pl"
-#awk -f src/genprolog.awk compose_output/composed_plan.txt > prolog_output/study_plan.pl
+awk -f src/genprolog.awk compose_output/composed_plan.txt > prolog_output/study_plan.pl
 #
 echo -e "\r\nEND OF PROGRAM\r\n"
