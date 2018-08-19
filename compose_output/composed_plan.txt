@@ -28,7 +28,7 @@
 28::EIF402::Administración de Bases de Datos::4::EIF212::EIF211::bsc::III::II
 29::EIF405::Investigación de Operaciones y sus Aplicaciones::3::MAY232::MAY223::bsc::III::II
 30::EIF407::Liderazgo y Organización ::3::EIF404::bsc::III::II
-31::EIFXXX::Diseño y programación de plataformas Móviles::4::EIF209::EIF428 O::bsc::IV::I
+31::EIFXXX::Diseño y programación de plataformas Móviles::4::EIF209::EIF428O::bsc::IV::I
 32::EIF406::Ingeniería de Sistemas III::4::EIF401::bsc::IV::I
 33::OptativaI::Optativa ::3::Admission::bsc::IV::I
 34::OptativaII::Optativa ::3::Admission::bsc::IV::I
@@ -50,7 +50,7 @@
 50::EIF431O::Administración de servidores basados en software libre::3::EIF212::EIF402::bsc::_::_
 51::EIF433O::Contexto, Desarrollo y Aplicación de Software Libre y de código abierto::3::EIF212::EIF211::bsc::_::_
 52::EIF434O::Minería de Datos I::3::EIF402::MAY223::bsc::_::_
-53::EIF435O::Minería de Datos II::3::EIF434::bsc::_::_
+53::EIF435O::Minería de Datos II::3::EIF434O::bsc::_::_
 54::EIG416O::Gestión de Tecnología Educativa::3::EIF425O::bsc::_::_
 55::EIF429O::Introducción a la creación de Empresas::3::Admission::bsc::_::_
 56::EIF430O::Las TIC’s en el Ámbito Jurídico de Costa Rica::3::Admission::bsc::_::_
