@@ -4,8 +4,8 @@
 
 <h1>Text-Mining</h1>
 
-<h2>Acerca del proyecto<h2>
-  <p>Al ejecutar el archivo runall.sh, toma el plan de estudios de la carrera de Ingenieria de sistemas de la Universidad Nacional de Costa Rica el cual esta en formato .txt para luego procesarlo utilizando awk y generando un archivo compose.txt, que es el mismo plan de estudios pero mejor ordenado, poniendo cada curso, sus requisitos, nivel y ciclo por cada linea para facilitar el procesamiento del siguiente paso, que consite en generar un grafo con Graphviz donde se puede mostrar los cursos como nodos y las aristas como requisitos hacia otros cursos. Además, es posible indicar lo que se quiere generar, como por ejemplo, mostrar solo los cursos de carrera. Del mismo modo al ultimo procedimiento, se genera un archivo Prolog, al cual se le pueden realizar consultas al plan de estudios, como listar los requisitos que no son requisitos para otros cursos (hojas)</p>
+<h2>Acerca del proyecto</h2>
+<p>Al ejecutar el archivo runall.sh, toma el plan de estudios de la carrera de Ingenieria de sistemas de la Universidad Nacional de Costa Rica el cual esta en formato .txt para luego procesarlo utilizando awk y generando un archivo compose.txt, que es el mismo plan de estudios pero mejor ordenado, poniendo cada curso, sus requisitos, nivel y ciclo por cada linea para facilitar el procesamiento del siguiente paso, que consite en generar un grafo con Graphviz donde se puede mostrar los cursos como nodos y las aristas como requisitos hacia otros cursos. Además, es posible indicar lo que se quiere generar, como por ejemplo, mostrar solo los cursos de carrera. Del mismo modo al ultimo procedimiento, se genera un archivo Prolog, al cual se le pueden realizar consultas al plan de estudios, como listar los requisitos que no son requisitos para otros cursos (hojas)</p>
 
 <hr>
 
@@ -18,7 +18,7 @@
 
 <hr>
 
-<h2>Instrucciones<h2>
+<h2>Instrucciones</h2>
   <ul>
     <li> Ejecutar el archivo <b> runall</b> </li>
       <ul>
