@@ -1,3 +1,4 @@
+#! /usr/bin/bash
 clear
 echo -e "\r\n*** Generating  Graphviz and Prolog for study plan ***\r\n"
 echo "Paradigmas de Programacion 2018 - 1pm"
@@ -33,12 +34,13 @@ do
         echo
 
         read choice
-
+# Windows: start | linux: firefox
+# start/firefox <path>;;
         case $choice in
-            '1') awk -f src/gengraph.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan.pdf && firefox gv_output/study_plan.pdf ;;
-            '2') awk -f src/gengraph_EIF.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIF.pdf  && firefox gv_output/study_plan_EIF.pdf;;
-            '3') awk -f src/gengraph_EIFMAY.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIFMAY.pdf && firefox gv_output/study_plan_EIFMAY.pdf;;
-            '4') awk -f src/gengraph_EIFOPT.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIFOPT.pdf && firefox gv_output/study_plan_EIFOPT.pdf;;
+            '1') awk -f src/gengraph.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan.pdf;;
+            '2') awk -f src/gengraph_EIF.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIF.pdf ;;
+            '3') awk -f src/gengraph_EIFMAY.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIFMAY.pdf;;
+            '4') awk -f src/gengraph_EIFOPT.awk compose_output/composed_plan.txt | dot -Tpdf -o gv_output/study_plan_EIFOPT.pdf ;;
             'q') echo "Continuando con Prolog!";;
             *)   echo "menu item is not available; try again!";;
         esac
