@@ -10,15 +10,9 @@ NOMBRE
 CR.
 REQUISITOS
 
-EIF200
-Fundamentos de Informática
-3
-Ingreso a Carrera
 
-MAY230
-Matemática para Informática I
-4
-Ingreso a Carrera
+
+
 
 Estudios Generales I
 3
