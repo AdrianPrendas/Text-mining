@@ -49,6 +49,10 @@ $2 ~/^(EIF|MAY)/{
 	if($2 ~ /^(EIF)/){
 		printf "%s [shape=box, style=filled,nodesep=.70, color=\"#204260\" fontcolor=white]", $2
 	}
+	
+	if($2 ~ /(O)$/){
+		printf "%s [shape=box, style=filled, nodesep=.70,color=orange]", $2
+	}
 }
 
 END{

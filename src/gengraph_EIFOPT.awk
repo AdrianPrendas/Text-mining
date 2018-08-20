@@ -34,7 +34,7 @@ $2 ~/^(EIF|EIG|Optativa)|(O)$/{
 	curso(columnaDef,current)
   printf "%s [shape=box, style=filled,nodesep=.70, color=\"#204260\" fontcolor=white]", $2
 
-  if($2 ~ /^(Optativa)/){
+  if($2 ~ /^(Optativa)|(O)$/){
 		printf "%s [shape=box, style=filled, nodesep=.70,color=orange]", $2
 	}
 

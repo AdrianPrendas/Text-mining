@@ -45,7 +45,9 @@ $2 ~/^(EIF|EIG)/{
 		printf "edge [color=\"#8C2B3D\"];"
 	}
 
-
+	if($2 ~ /(O)$/){
+		printf "%s [shape=box, style=filled, nodesep=.70,color=orange]", $2
+	}
 
 }
 

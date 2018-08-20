@@ -2,11 +2,10 @@
 ###################
 
 # for graph
-*.pdf
+gv_output/*.pdf
 
 # for composed plan
-composed_plan.txt
+compose_output/composed_plan.txt
 
 # for prolog
 study_plan.pl
-
