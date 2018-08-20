@@ -59,7 +59,7 @@ BEGIN{
 		printf "%s [shape=box, style=filled, nodesep=.70,color=\"#02FF6C\"]", $2
 		printf "%s [shape=box, style=filled, color=\"#02FF6C\"]", "CURSOS_EIGS"
 	}
-	if($2 ~ /^(Optativa|OPTATIVOS)/){
+	if($2 ~ /^(Optativa|OPTATIVOS)|(O)$/){
 		printf "%s [shape=box, style=filled, nodesep=.70,color=orange]", $2
 		printf "%s [shape=box, style=filled, color=orange]", "OPTATIVOS"
 	}

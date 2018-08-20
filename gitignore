@@ -1,0 +1,12 @@
+# Ignore  files #
+###################
+
+# for graph
+*.pdf
+
+# for composed plan
+composed_plan.txt
+
+# for prolog
+study_plan.pl
+

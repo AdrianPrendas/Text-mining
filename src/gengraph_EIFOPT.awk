@@ -28,7 +28,7 @@ BEGIN{
 		}
 		return
 }
-$2 ~/^(EIF|EIG|Optativa)/{
+$2 ~/^(EIF|EIG|Optativa)|(O)$/{
 	columnaDef = 5
 	current = 2
 	curso(columnaDef,current)
