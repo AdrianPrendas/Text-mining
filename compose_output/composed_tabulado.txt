@@ -30,7 +30,7 @@ Diplomado:
 24::EIF212		::Sistemas Operativos					::3::EIF204::EIF205		::dipl::III::I
 25::EIF208		::Comunicaciones y Redes de Computadores		::3::EIF205			::dipl::III::I
 
-Bachillerato
+Bachillerato:
 
 26::EIF400		::Paradigmas de Programación				::4::EIF206			::bsc::III::II
 27::EIF401		::Ingeniería de Sistemas II				::4::EIF210			::bsc::III::II
