@@ -1,5 +1,5 @@
 ![plan](https://user-images.githubusercontent.com/16330583/44313725-a9a9d100-a3ca-11e8-82e8-9a5b2289e323.png)
-
+![p0_a](https://user-images.githubusercontent.com/16330583/44546355-e6304200-a6d4-11e8-93a0-0c1ba32641ab.png)
 <hr>
 
 <h1>Text-Mining</h1>
@@ -15,6 +15,7 @@
   <li> <b>g(f(x)):</b> donde <b>f(x)</b> es el archivo compose.txt generado y <b>g(f(x))</b> es el grafo seleccionado generado</li>
   <li> <b>h(f(x)):</b> donde <b>f(x)</b> es el archivo compose.txt generado y <b>h(f(x))</b> es el archivo Prolog generado</li>
 </ol>
+
 
 <hr>
 
